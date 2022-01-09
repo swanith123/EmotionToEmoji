@@ -1,0 +1,35 @@
+body
+{
+color: black;
+background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(198,237,14,1) 50%, rgba(23,153,221,1) 100%);
+font-family: 'Outfit', sans-serif;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result_camera
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result1_emotion_name ,#result2_emotion_name 
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji_name
+{
+  font-size:48px;
+}
+
+.heading{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
